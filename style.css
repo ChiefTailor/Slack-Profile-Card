@@ -1,0 +1,107 @@
+*{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+main{
+    border-radius: 10px;
+    display: flex;
+    background-color: #2b4352;
+    justify-content: center;
+    width: 50vw;
+    margin-top: 5vh;
+}
+.profilePicture{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+main>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    /* gap: 3vh; */
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.fullName{
+    font-size: 26px;
+    margin-top: 20px;
+    color: #ece8c5;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.jobTitle{
+    margin-bottom: 3px;
+    font-family:monospace;
+    margin-left: 50px;
+    color: #e7de8d;
+}
+.shortBio{
+    border-radius: 10px;
+    color: #e7de8d;
+    font-style: italic;
+    background-color: #538ea2;
+    line-height: 1.8;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+}
+.currentLocation{
+    color: #e7de8d;
+    font-family:monospace;
+    margin-left: 70px;
+}
+.emailAddress{
+    color: #e7de8d;
+    font-family:monospace;
+    margin-left: 20px;
+}
+.socialLinks{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 15px;
+}
+.currentTimeUTC{
+    color: #e7de8d;
+}
+
+
+
+@media (width<=900px){
+    main{
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        border-radius: 0px;
+        padding: 1vh;
+        margin-top: 0vh;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .profilePicture{
+      border-radius: 5px;
+      margin-top: 0%;
+    }
+    .fullName{
+        margin-top: 5px;
+    }
+    .jobTitle{
+        margin-left: 0px;
+    }
+    .currentLocation{
+        margin-left: 0px;
+    }
+    .emailAddress{
+        margin-left: 0px;
+    }
+    .socialLinks{
+        padding-top: 5px;
+    }
+}

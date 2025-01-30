@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main>
+    <img src="/zee.jpg" alt="Taiwo" data-testid="profilePicture" class="profilePicture">
+    <div>
+        <h1 data-testid="fullName" class="fullName">Ajiboye Taiwo Oluwasegun</h1>
+        <h2 data-testid="jobTitle" class="jobTitle">Front End Developer</h2>
+        <h3 data-testid="currentLocation" class="currentLocation">Lagos State, Nigeria</h3>
+        <h3 data-testid="emailAddress" class="emailAddress">Ajiboyetaiwooluwasegun@gmail.com</h3>
+        <p data-testid="shortBio" class="shortBio">
+            As a front-end developer with great passion for creating intuitive and visually appealing user interfaces. With expertise in HTML, CSS, JavaScript, and modern frameworks like React, I focus on building responsive and high-performance web applications. I enjoy turning design concepts into seamless digital experiences, ensuring accessibility and usability. Constantly learning and adapting to new technologies, I strive to stay ahead in the ever-evolving web development landscape.
+        </p>
+        <div data-testid="socialLinks" class="socialLinks">
+            <a href="https://github.com/ChiefTailor">
+                <img src="./github-color.svg" alt="Github" width="30px">
+            </a>
+            <a href="https://x.com/emini_youngzee?s=21">
+                <img src="./twitter-1.svg" alt="Twitter" width="30px">
+            </a>
+            <a href="https://www.linkedin.com/in/ajiboye-taiwo-baa467332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                <img src="./linkedin.svg" alt="Linkedin" width="30px">
+            </a>
+        </div>
+        <p id="utc-time" data-testid="currentTimeUTC" class="currentTimeUTC"></p>
+    </div>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
